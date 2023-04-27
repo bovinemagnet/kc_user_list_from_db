@@ -12,12 +12,12 @@ In this case it will retrieve a list of users from a realm where the user was cr
 
 ```bash
 Usage of bin/kc_user_list_from_db:
--U, --username string       Database username. (default "keycloak21_u")
+-U, --username string       Database username. (default "keycloak")
 -W, --password string       Database password. (default "password")
--d, --dbname string         Database Name. (default "keycloak21_d")
+-d, --dbname string         Database Name. (default "keycloak")
 -h, --host string           Specifies the host name of the machine on which the server is running. (default "localhost")
 -p, --port int              Database Port. (default 5432)
--r, --realm string          Keycloak Realm (default "npe")
+-r, --realm string          Keycloak Realm (default "master")
 --days int              the number of days, after which users are deleted (default -1)
 --deleteDate string     The date after which users will be deleted. Format: YYYY-MM-DD
 -0, --incId                 Include id in the output
